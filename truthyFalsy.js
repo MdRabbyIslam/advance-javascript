@@ -11,9 +11,12 @@
 //* true
 //*numbers are true without zero
 //* " "/ "0 or anything"( not empty string)
+//* [] (empty array)
+//* {}(empty object)
 
 //? for experiment
-var name = false;
+var name = 0n;
+console.log(typeof name)
 
 if (name) {
     console.log("condition is true")

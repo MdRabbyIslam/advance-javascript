@@ -20,9 +20,7 @@ let second = "2";
 const double = doubleEqual(first, second);
 console.log(double) //* true becuase double equal (==) compare only values
 
-const first1 = 3;
-const second1 = "3";
-const triple = tripleEqual(first1, second1);
+const triple = tripleEqual(first, second);
 console.log(triple); //* false because triple equal compare value and data type
 
 //todo we should always use === .It is highly recomanded.

@@ -23,3 +23,8 @@ if (name) {
 } else {
     console.log("condition is false")
 }
+
+function doSomething(x, y) {
+    console.log(y);
+}
+doSomething(32);

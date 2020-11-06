@@ -15,7 +15,7 @@
 //* {}(empty object)
 
 //? for experiment
-var name = 0n;
+var name = 0;
 console.log(typeof name)
 
 if (name) {
